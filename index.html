@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--While adding elements in DOM use $(".parentname")
+While removing elements in DOM use $(".childarrayname")[i].remove()-->
+
+<head>
+  
+  <title>Frontend Mentor | Todo app</title>
+  <link rel="stylesheet" href="E:\web pages\github web challanges\todo-app-main\style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b060dc8d2b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <div class="container-fluid">
+  <img class="imgmain" src="images/bg-desktop-dark.jpg">
+</div>
+<div class="container-fluid titleclass">
+  <h1 >T O D O</h1>
+</div>
+ 
+<div class="form-group formclass">
+  
+  
+  
+  
+  <input  class="form-control formc bg-dark text-light" >
+  <button type="button" class="btn btn-danger mybut">Add task</button>
+</div>
+  
+<div class="container-fluid lis list-group">
+ 
+      
+  <a  class="bg-dark list form list-group-item list-group-item-action "><spam class="symbol" id="t1">O</spam><span class="tex">Cras justo odio </span><h3 class="cross text-warning ">X</h3></a>
+  <a  class="bg-dark list form list-group-item list-group-item-action"><spam class="symbol" id="t2">O</spam><span class="tex">Dapibus ac facilisis in </span><h3 class="cross text-warning">X</h3></a>
+  <a class="bg-dark list form list-group-item list-group-item-action"><spam class="symbol" id="t3">O</spam><span class="tex">Morbi leo risus</span><h3 class="cross text-warning">X</h3></a>
+  <a  class="bg-dark list form list-group-item list-group-item-action"><spam class="symbol" id="t4">O</spam><span class="tex">leo risus</span><h3 class="cross text-warning">X</h3></a>
+  
+</div>
+
+      <div class=" container-fluid row bg-dark foot2">
+        <div class="col-lg-3">
+        <a><span id="num">4</span> tasks left</a>
+        </div>
+        <div class="col-lg-9">
+          <div class="row">
+            <div class="col-lg-4">
+              <a class="func"id="fun1">All</a>
+            </div>
+            <div class="col-lg-4">
+              <a class="func" id="fun2">Active</a>
+            </div>
+            <div class="col-lg-4">
+              <a class="func" id="fun3">completed</a>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+  
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="E:\web pages\github web challanges\todo-app-main\index.js"></script>
+</body>
+</html>

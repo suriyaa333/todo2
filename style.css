@@ -1,0 +1,107 @@
+body{
+    background-color: hsl(235, 21%, 11%) !important;
+   
+}
+.container-fluid{
+    padding:0 !important;
+}
+.titleclass{
+    display:inline-block !important;
+    width:20% !important;
+    position: absolute;
+    top:20%;
+    left:30%;
+    font-family: 'Josefin Sans', sans-serif;
+    color:white;
+    font-size: 5rem !important;
+    
+}
+.plus{
+    display:inline-block !important;
+    width:5% !important;
+    font-size: 3rem;
+    height:fit-content !important;
+}
+#topsec{
+    text-align: center;
+}
+.form-outline{
+    width:30% !important;
+    position: relative ;
+    bottom:100px;
+    display:inline-block !important;
+}
+.form{
+    color: white !important;
+}
+
+   .list{
+    border-bottom: 1px solid green !important;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    list-style-type:none;
+   }
+.lis{
+    width:40% !important;
+   margin:auto ;
+   margin-top:5%;
+   
+    
+}
+.formclass{
+    
+    
+}
+.mybut{
+    display: inline-block !important;
+    margin-left: 3%;
+    margin-bottom: 7px;
+}
+.formc{
+    display: inline-block !important;
+    width:30% !important;
+    margin-left:30%;
+  color: white;
+    margin-top:5%;
+}
+.rad{
+    color: hsl(235, 21%, 11%) !important;
+}
+.symbol{
+    font-size: 2rem !important;
+    color:gold;
+}
+.cross{
+    margin-right:auto !important;
+    display: inline-block;
+    position:absolute;
+    right:30px;
+    bottom:5px;
+}
+.foot2{
+    padding:10px !important;
+   
+    width:60% !important;
+   margin:auto !important;
+   margin-top: 5% !important;
+   margin-bottom: 3% !important;
+   
+    color: white !important;
+    
+    
+    
+}
+.func:hover{
+    cursor: pointer;
+}
+
+.list:hover{
+    cursor: pointer;
+}
+.strike{
+    text-decoration: line-through !important;
+}
+.tex{
+    margin-left: 20px;
+}
