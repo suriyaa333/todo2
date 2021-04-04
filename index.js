@@ -217,7 +217,10 @@ function check(){
      
         var currdate=currentdate.getDate();
         var currmonth=currentdate.getMonth()+1;
-        var currtime=parseInt(""+currentdate.getHours()+currentdate.getMinutes());
+        var mi=""+currentdate.getMinutes();
+        if(mi.length==1)
+        mi='0'+mi;
+        var currtime=parseInt(""+currentdate.getHours()+mi);
       
         if(currmonth>month){
         $(".list")[i].classList.remove("bg-dark");
@@ -234,11 +237,12 @@ function check(){
             }
             else if(currdate==dat)
             {
-                
+             
                 if(currtime>time)
                 {
+                   
                     $(".list")[i].classList.remove("bg-dark");
-                $(".list")[i].classList.add("back");
+                    $(".list")[i].classList.add("back");
                 }
             }
         }
