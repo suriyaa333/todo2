@@ -16,7 +16,7 @@ While removing elements in DOM use $(".childarrayname")[i].remove()-->
 </head>
 <body>
  <div class="container-fluid">
-  <img class="imgmain" src="bg-desktop-dark.jpg">
+  <img class="imgmain" src="images/bg-desktop-dark.jpg">
 </div>
 <div class="container-fluid titleclass">
   <h1 >T O D O</h1>
@@ -27,17 +27,21 @@ While removing elements in DOM use $(".childarrayname")[i].remove()-->
   
   
   
-  <input  class="form-control formc bg-dark text-light" >
+  <input  class="form-control form1 bg-dark text-light" value="Enter task" >
+  <input id="monthanddate" class="form-control formc bg-dark text-light" value="Enter Month Date" >
+  <input id="time" class="form-control formc bg-dark text-light" value="Enter time" >
+  
+ 
   <button type="button" class="btn btn-danger mybut">Add task</button>
 </div>
   
 <div class="container-fluid lis list-group">
  
       
-  <a  class="bg-dark list form list-group-item list-group-item-action "><spam class="symbol" id="t1">O</spam><span class="tex">Cras justo odio </span><h3 class="cross text-warning ">X</h3></a>
-  <a  class="bg-dark list form list-group-item list-group-item-action"><spam class="symbol" id="t2">O</spam><span class="tex">Dapibus ac facilisis in </span><h3 class="cross text-warning">X</h3></a>
-  <a class="bg-dark list form list-group-item list-group-item-action"><spam class="symbol" id="t3">O</spam><span class="tex">Morbi leo risus</span><h3 class="cross text-warning">X</h3></a>
-  <a  class="bg-dark list form list-group-item list-group-item-action"><spam class="symbol" id="t4">O</spam><span class="tex">leo risus</span><h3 class="cross text-warning">X</h3></a>
+  <a  class="bg-dark list form list-group-item list-group-item-action "><spam class="symbol" id="t1">O</spam><span class="tex">Cras justo odio </span><span class="date">Apr 4 16:11</span> <h3 class="cross text-warning ">X</h3></a>
+  <a  class="bg-dark list form list-group-item list-group-item-action"><spam class="symbol" id="t2">O</spam><span class="tex">Dapibus ac facilisis in </span><span class="date">Sep 4 19:30</span><h3 class="cross text-warning">X</h3></a>
+  <a class="bg-dark list form list-group-item list-group-item-action"><spam class="symbol" id="t3">O</spam><span class="tex">Morbi leo risus</span><span class="date">Mar 4 19:30</span><h3 class="cross text-warning">X</h3></a>
+  <a  class="bg-dark list form list-group-item list-group-item-action"><spam class="symbol" id="t4">O</spam><span class="tex">leo risus</span><span class="date">Jul 4 19:30</span><h3 class="cross text-warning">X</h3></a>
   
 </div>
 
@@ -69,3 +73,4 @@ While removing elements in DOM use $(".childarrayname")[i].remove()-->
       <script src="index.js"></script>
 </body>
 </html>
+
